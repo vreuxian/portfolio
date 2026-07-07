@@ -1,3 +1,9 @@
+html{
+
+    scroll-behavior:smooth;
+
+}
+
 *{
     margin:0;
     padding:0;
@@ -103,4 +109,44 @@ button{
     cursor:pointer;
 
     font-size:16px;
+}
+
+.about{
+
+    min-height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:80px 20px;
+
+}
+
+.about p{
+
+    max-width:700px;
+
+    line-height:1.8;
+
+    margin:20px 0;
+
+}
+
+.about ul{
+
+    list-style:none;
+
+}
+
+.about li{
+
+    margin:10px 0;
+
 }
