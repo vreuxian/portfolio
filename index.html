@@ -14,21 +14,27 @@
 
     <nav>
 
-    <h2 class="logo">Ian</h2>
+        <h2 class="logo">Ian</h2>
 
-    <ul>
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
 
-        <li><a href="#home">Home</a></li>
+        <ul class="nav-menu" id="nav-menu">
 
-        <li><a href="#about">About</a></li>
+            <li><a href="#home">Home</a></li>
 
-        <li><a href="#">Projects</a></li>
+            <li><a href="#about">About</a></li>
 
-        <li><a href="#">Contact</a></li>
+            <li><a href="#projects">Projects</a></li>
 
-    </ul>
+            <li><a href="#contact">Contact</a></li>
 
-</nav>
+        </ul>
+
+    </nav>
 
     <section class="hero" id="home">
 
@@ -40,39 +46,55 @@
             I build websites and web applications while learning new technologies every day.
         </p>
 
-        <button>View Projects</button>
-
-        <button>Contact Me</button>
+        <div class="hero-buttons">
+            <button>View Projects</button>
+            <button>Contact Me</button>
+        </div>
 
     </section>
 
     <section class="about" id="about">
 
-    <h2>About Me</h2>
+        <h2>About Me</h2>
 
-    <p>
-        Hi! I'm Ian, an aspiring Full Stack Developer from the Philippines.
-        I'm currently learning HTML, CSS, JavaScript, Git, and GitHub.
-        My goal is to become a skilled developer by building real-world projects.
-    </p>
+        <p>
+            I'm Ian, an aspiring Full Stack Developer. I build web applications and constantly expanding my tech stack.
+            My goal is to become a skilled developer by building real-world projects.
+        </p>
 
-    <h3>Current Skills</h3>
+        <h3>My Tech Stack</h3>
 
-    <ul>
+        <div class="skills-container">
 
-        <li>HTML</li>
+            <div class="skill-category">
+                <h4>Frontend</h4>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
 
-        <li>CSS</li>
+            <div class="skill-category">
+                <h4>Backend & Databases</h4>
+                <ul>
+                    <li>Java</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
 
-        <li>JavaScript</li>
+            <div class="skill-category">
+                <h4>Tools & Environment</h4>
+                <ul>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>VS Code</li>
+                </ul>
+            </div>
 
-        <li>Git</li>
+        </div>
 
-        <li>GitHub</li>
-
-    </ul>
-
-</section>
+    </section>
 
     <script src="script.js"></script>
 
